@@ -26,9 +26,7 @@ export default function App() {
             <a href="https://hotel-customer.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               ↗ Live Demo
             </a>
-            <a href="https://hotel.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ background: 'transparent', border: '1px solid #6366f1' }}>
-              &lt;/&gt; Code
-            </a>
+
           </div>
         </div>
       </section>
@@ -37,10 +35,10 @@ export default function App() {
       <section className="section">
         <div className="project-info">
           <h3>Project 02</h3>
-          <h2>Restaurant Ordering</h2>
-          <p>A full-stack ordering platform with automated table detection, real-time status updates, and a Swiggy-inspired premium light UI.</p>
+          <h2>SOCIETY MANAGEMENT</h2>
+          <p>A Society Management System is a comprehensive software solution designed to streamline the operations of residential communities, housing societies, and apartment complexes.</p>
           <div style={{ display: 'flex', gap: '1rem' }}>
-            <a href="https://github.com/dgulati352-cpu" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <a href="https://society-one-kohl.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               ↗ Live Demo
             </a>
           </div>

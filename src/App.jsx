@@ -20,13 +20,13 @@ export default function App() {
       <section className="section right">
         <div className="project-info">
           <h3>Project 01</h3>
-          <h2>MediNova Healthcare</h2>
-          <p>An advanced hospital management system with AI triage, sophisticated dark theme, and robust dashboard features.</p>
+          <h2>RESTAURANT ORDERING APP</h2>
+          <p>A restaurant app that allows users to order food and track their order status.</p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end' }}>
-            <a href="https://github.com/dgulati352-cpu" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <a href="https://hotel-customer.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               ↗ Live Demo
             </a>
-            <a href="https://github.com/dgulati352-cpu" target="_blank" rel="noreferrer" className="btn" style={{ background: 'transparent', border: '1px solid #6366f1' }}>
+            <a href="https://hotel-customer.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ background: 'transparent', border: '1px solid #6366f1' }}>
               &lt;/&gt; Code
             </a>
           </div>

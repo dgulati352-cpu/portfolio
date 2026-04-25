@@ -23,12 +23,12 @@ export default function App() {
           <h2>MediNova Healthcare</h2>
           <p>An advanced hospital management system with AI triage, sophisticated dark theme, and robust dashboard features.</p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end' }}>
-            <button className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <a href="https://github.com/dgulati352-cpu" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               ↗ Live Demo
-            </button>
-            <button className="btn" style={{ background: 'transparent', border: '1px solid #6366f1' }}>
+            </a>
+            <a href="https://github.com/dgulati352-cpu" target="_blank" rel="noreferrer" className="btn" style={{ background: 'transparent', border: '1px solid #6366f1' }}>
               &lt;/&gt; Code
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -40,9 +40,9 @@ export default function App() {
           <h2>Restaurant Ordering</h2>
           <p>A full-stack ordering platform with automated table detection, real-time status updates, and a Swiggy-inspired premium light UI.</p>
           <div style={{ display: 'flex', gap: '1rem' }}>
-            <button className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <a href="https://github.com/dgulati352-cpu" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               ↗ Live Demo
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -54,9 +54,9 @@ export default function App() {
           <h2>DeepThink Cosmic</h2>
           <p>A highly responsive mobile-first cosmic interface with intelligent features and sleek workspace management.</p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end' }}>
-            <button className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <a href="https://github.com/dgulati352-cpu" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               ↗ Live Demo
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -65,7 +65,7 @@ export default function App() {
       <section className="section center">
         <h2>Let's build something amazing together.</h2>
         <p>Feel free to reach out for collaborations or just a friendly hello.</p>
-        <button className="btn" style={{ marginTop: '2rem' }}>Contact Me</button>
+        <a href="mailto:dgulati352@gmail.com" className="btn" style={{ marginTop: '2rem' }}>Contact Me</a>
       </section>
     </div>
   );

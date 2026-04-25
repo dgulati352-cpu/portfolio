@@ -26,7 +26,7 @@ export default function App() {
             <a href="https://hotel-customer.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               ↗ Live Demo
             </a>
-            <a href="https://hotel-customer.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ background: 'transparent', border: '1px solid #6366f1' }}>
+            <a href="https://hotel.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ background: 'transparent', border: '1px solid #6366f1' }}>
               &lt;/&gt; Code
             </a>
           </div>

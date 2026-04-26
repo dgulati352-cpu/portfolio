@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const ContactForm = () => {
   const [status, setStatus] = useState('');
@@ -27,7 +27,7 @@ const ContactForm = () => {
       } else {
         setStatus('ERROR');
       }
-    } catch (error) {
+    } catch {
       setStatus('ERROR');
     } finally {
       setLoading(false);

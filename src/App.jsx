@@ -1,20 +1,19 @@
-import React, { useEffect, Suspense } from 'react';
+import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { ScrollControls, Scroll } from '@react-three/drei';
 import ContactForm from './components/ContactForm';
 import { Experience } from './components/Experience';
 
 export default function App() {
-  console.log('App rendering...');
   return (
     <div className="app-canvas-container" style={{ width: '100vw', height: '100vh', background: '#050505' }}>
-      <Suspense fallback={<div style={{ color: 'white', padding: '20px' }}>Loading Portfolio...</div>}>
-        <Canvas
-          shadows
-          camera={{ position: [0, 0, 10], fov: 35 }}
-          gl={{ antialias: true }}
-          style={{ position: 'fixed', top: 0, left: 0 }}
-        >
+      <Canvas
+        shadows
+        camera={{ position: [0, 0, 10], fov: 35 }}
+        gl={{ antialias: true }}
+        style={{ position: 'fixed', top: 0, left: 0 }}
+      >
+        <Suspense fallback={null}>
           <ScrollControls pages={5} damping={0.1}>
             <Experience />
             <Scroll html style={{ width: '100vw' }}>

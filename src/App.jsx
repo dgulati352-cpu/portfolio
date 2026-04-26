@@ -5,31 +5,17 @@ import ContactForm from './components/ContactForm';
 import { Experience } from './components/Experience';
 
 export default function App() {
-  // Hide loader when component mounts
-  useEffect(() => {
-    const loader = document.getElementById('loader');
-    if (loader) {
-      setTimeout(() => {
-        loader.style.opacity = '0';
-        setTimeout(() => loader.style.display = 'none', 500);
-      }, 1000);
-    }
-  }, []);
-
   return (
-    <div style={{ width: '100vw', height: '100vh', background: '#050505' }}>
+    <div className="app-canvas-container" style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', background: '#050505' }}>
       <Canvas
         shadows
-        camera={{ position: [0, 0, 8], fov: 42 }}
-        dpr={[1, 2]}
+        camera={{ position: [0, 0, 10], fov: 35 }}
+        gl={{ antialias: true }}
       >
         <Suspense fallback={null}>
-          <ScrollControls pages={5} damping={0.2}>
-            {/* 3D Scene */}
+          <ScrollControls pages={5} damping={0.1}>
             <Experience />
-
-            {/* HTML Overlay */}
-            <Scroll html style={{ width: '100%' }}>
+            <Scroll html style={{ width: '100vw' }}>
               <div className="portfolio-container">
                 {/* Page 1: Hero */}
                 <section className="section">

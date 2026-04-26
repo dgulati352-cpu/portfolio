@@ -13,17 +13,15 @@
   padding: 0;
 }
 
-body, html {
+html, body, #root {
   width: 100%;
-  min-height: 100vh;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #050505;
+  color: #ffffff;
   font-family: 'Inter', sans-serif;
-}
-
-#root {
-  width: 100%;
-  height: 100vh;
 }
 
 /* Typography */

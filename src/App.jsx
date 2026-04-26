@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ContactForm from './components/ContactForm';
 
 export default function App() {
   // Hide loader when component mounts
@@ -26,7 +27,6 @@ export default function App() {
             <a href="https://hotel-customer.vercel.app/" target="_blank" rel="noreferrer" className="btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               ↗ Live Demo
             </a>
-
           </div>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function App() {
       <section className="section center">
         <h2>Let's build something amazing together.</h2>
         <p>Feel free to reach out for collaborations or just a friendly hello.</p>
-        <a href="mailto:dgulati352@gmail.com" className="btn" style={{ marginTop: '2rem' }}>Contact Me</a>
+        <ContactForm />
       </section>
     </div>
   );

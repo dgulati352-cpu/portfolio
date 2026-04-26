@@ -18,7 +18,6 @@ html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #050505;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
